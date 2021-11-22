@@ -157,7 +157,7 @@ if (week[dname] == 'Senin') {
 } else if (week[dname] == 'Selasa') {
     senin.style.display = 'none'
     selasa.style.display = '';
-    rabu.style.display = '';
+    rabu.style.display = 'none';
     kamis.style.display = 'none';
     jumat.style.display = 'none';
     weekend.style.display = 'none';
@@ -165,7 +165,7 @@ if (week[dname] == 'Senin') {
     senin.style.display = 'none'
     selasa.style.display = 'none'
     rabu.style.display = '';
-    kamis.style.display = '';
+    kamis.style.display = 'none';
     jumat.style.display = 'none';
     weekend.style.display = 'none';
 } else if (week[dname] == 'Kamis') {
@@ -173,7 +173,7 @@ if (week[dname] == 'Senin') {
     selasa.style.display = 'none'
     rabu.style.display = 'none'
     kamis.style.display = '';
-    jumat.style.display = '';
+    jumat.style.display = 'none';
     weekend.style.display = 'none';
 } else if (week[dname] == "Jum'at") {
     senin.style.display = 'none'
