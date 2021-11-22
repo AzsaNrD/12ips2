@@ -147,7 +147,7 @@ const weekend = document.getElementById('weekend');
 
 if (week[dname] == 'Senin') {
     senin.style.display = '';
-    selasa.style.display = '';
+    selasa.style.display = 'none';
     rabu.style.display = 'none';
     kamis.style.display = 'none';
     jumat.style.display = 'none';
